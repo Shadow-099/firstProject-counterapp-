@@ -1,0 +1,54 @@
+html{
+    background-image : url(https://imgs.search.brave.com/WUl5PqJWWa2NKXxMPHSSPI4m10wF5oqskXXEzSAkDFw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMzQz/NjQ1LmpwZw);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+body {
+    /* background-image: url("station.jpg");
+    background-size: cover; */
+    
+    font-family:  Ubuntu ,Oxygen, 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-function {
+    background-image: linear-gradient( 135deg, rgba(255, 255, 0, 0.5), rgba(255, 166, 0, 0.75));
+    max-width: 80%;
+    border-radius: 25px;
+    margin:auto;
+    border: 3px solid rgb(95, 60, 0);
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 3px solid rgb(95, 60, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+#increment-btn {
+    background: rgb(145, 80, 0);
+}
+
+#save-btn {
+    background: rgb(0, 68, 100);
+}
+
